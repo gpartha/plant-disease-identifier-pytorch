@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/0/6b144d105b0547c1b5a63cd3134750df/artifacts
+end_time: 1749379736037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b144d105b0547c1b5a63cd3134750df
+run_name: melodic-donkey-490
+run_uuid: 6b144d105b0547c1b5a63cd3134750df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749379224074
+status: 3
+tags: []
+user_id: gpartha

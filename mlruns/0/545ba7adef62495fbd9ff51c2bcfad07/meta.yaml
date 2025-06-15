@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/0/545ba7adef62495fbd9ff51c2bcfad07/artifacts
+end_time: 1749378803578
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 545ba7adef62495fbd9ff51c2bcfad07
+run_name: overjoyed-finch-720
+run_uuid: 545ba7adef62495fbd9ff51c2bcfad07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749378800045
+status: 3
+tags: []
+user_id: gpartha

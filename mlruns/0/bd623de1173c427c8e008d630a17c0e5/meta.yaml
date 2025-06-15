@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/0/bd623de1173c427c8e008d630a17c0e5/artifacts
+end_time: 1749378573622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd623de1173c427c8e008d630a17c0e5
+run_name: funny-goat-366
+run_uuid: bd623de1173c427c8e008d630a17c0e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749378570067
+status: 3
+tags: []
+user_id: gpartha

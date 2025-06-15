@@ -1,0 +1,16 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/297972326167310191/c7c634f282974657b0cbff7016edf98a/artifacts
+deleted_time: 1749378929867
+end_time: 1749362497458
+entry_point_name: ''
+experiment_id: '297972326167310191'
+lifecycle_stage: deleted
+run_id: c7c634f282974657b0cbff7016edf98a
+run_name: marvelous-robin-70
+run_uuid: c7c634f282974657b0cbff7016edf98a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749362496302
+status: 4
+tags: []
+user_id: gpartha

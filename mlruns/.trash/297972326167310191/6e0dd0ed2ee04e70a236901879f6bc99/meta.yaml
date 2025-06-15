@@ -1,0 +1,16 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/297972326167310191/6e0dd0ed2ee04e70a236901879f6bc99/artifacts
+deleted_time: 1749378929867
+end_time: 1749352077186
+entry_point_name: ''
+experiment_id: '297972326167310191'
+lifecycle_stage: deleted
+run_id: 6e0dd0ed2ee04e70a236901879f6bc99
+run_name: colorful-stag-555
+run_uuid: 6e0dd0ed2ee04e70a236901879f6bc99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749352076197
+status: 4
+tags: []
+user_id: gpartha

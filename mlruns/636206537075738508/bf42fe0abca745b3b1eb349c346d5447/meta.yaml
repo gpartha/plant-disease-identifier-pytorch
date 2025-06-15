@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/bf42fe0abca745b3b1eb349c346d5447/artifacts
+end_time: 1749365928744
+entry_point_name: ''
+experiment_id: '636206537075738508'
+lifecycle_stage: active
+run_id: bf42fe0abca745b3b1eb349c346d5447
+run_name: salty-eel-648
+run_uuid: bf42fe0abca745b3b1eb349c346d5447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749365927595
+status: 4
+tags: []
+user_id: gpartha

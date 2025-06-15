@@ -1,0 +1,7 @@
+artifact_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/297972326167310191
+creation_time: 1749316168695
+experiment_id: '297972326167310191'
+last_update_time: 1749378929867
+lifecycle_stage: deleted
+name: Plant_Disease_Intel_XPU
+tags: {}

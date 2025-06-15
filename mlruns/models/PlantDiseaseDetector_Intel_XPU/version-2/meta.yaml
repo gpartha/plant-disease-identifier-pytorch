@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749375305162
+current_stage: None
+description: null
+last_updated_timestamp: 1749375305162
+name: PlantDiseaseDetector_Intel_XPU
+run_id: 44d31bd2aaa544b7acdbfc3a61857f8a
+run_link: null
+source: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/44d31bd2aaa544b7acdbfc3a61857f8a/artifacts/plant_disease_model
+status: READY
+status_message: null
+storage_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/44d31bd2aaa544b7acdbfc3a61857f8a/artifacts/plant_disease_model
+user_id: null
+version: 2

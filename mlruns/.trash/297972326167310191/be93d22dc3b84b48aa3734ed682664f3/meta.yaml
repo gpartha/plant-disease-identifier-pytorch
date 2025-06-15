@@ -1,0 +1,16 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/297972326167310191/be93d22dc3b84b48aa3734ed682664f3/artifacts
+deleted_time: 1749378929867
+end_time: 1749352765960
+entry_point_name: ''
+experiment_id: '297972326167310191'
+lifecycle_stage: deleted
+run_id: be93d22dc3b84b48aa3734ed682664f3
+run_name: merciful-shark-481
+run_uuid: be93d22dc3b84b48aa3734ed682664f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749352764871
+status: 4
+tags: []
+user_id: gpartha

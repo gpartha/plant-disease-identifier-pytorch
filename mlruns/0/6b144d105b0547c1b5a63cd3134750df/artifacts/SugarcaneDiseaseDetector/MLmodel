@@ -1,0 +1,22 @@
+artifact_path: SugarcaneDiseaseDetector
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.6
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.7.1+xpu
+mlflow_version: 2.22.0
+model_size_bytes: 14640191
+model_uuid: 65050b8ebf794e0b98897dcaf6ead881
+prompts: null
+run_id: 6b144d105b0547c1b5a63cd3134750df
+utc_time_created: '2025-06-08 10:45:20.265530'

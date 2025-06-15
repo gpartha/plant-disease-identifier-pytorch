@@ -1,0 +1,19 @@
+stages:
+  data_preparation:
+    cmd: python scripts/prepare_data.py
+    deps:
+    - data/raw/
+    outs:
+    - data/processed/train/
+    - data/processed/val/
+    - data/processed/test/
+    
+  train:
+    cmd: python scripts/train_model.py
+    deps:
+    - data/processed/
+    - src/
+    outs:
+    - data/models/best_model.pth
+    metrics:
+    - metrics.json

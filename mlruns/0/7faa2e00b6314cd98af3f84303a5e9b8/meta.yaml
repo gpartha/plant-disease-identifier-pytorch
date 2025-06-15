@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/0/7faa2e00b6314cd98af3f84303a5e9b8/artifacts
+end_time: 1749378119007
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7faa2e00b6314cd98af3f84303a5e9b8
+run_name: vaunted-eel-864
+run_uuid: 7faa2e00b6314cd98af3f84303a5e9b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749378115573
+status: 3
+tags: []
+user_id: gpartha

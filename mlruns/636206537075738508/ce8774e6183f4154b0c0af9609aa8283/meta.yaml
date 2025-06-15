@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/ce8774e6183f4154b0c0af9609aa8283/artifacts
+end_time: 1749362670430
+entry_point_name: ''
+experiment_id: '636206537075738508'
+lifecycle_stage: active
+run_id: ce8774e6183f4154b0c0af9609aa8283
+run_name: capricious-whale-59
+run_uuid: ce8774e6183f4154b0c0af9609aa8283
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749362669250
+status: 4
+tags: []
+user_id: gpartha

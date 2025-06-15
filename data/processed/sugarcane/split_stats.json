@@ -1,0 +1,36 @@
+{
+  "total_images": 2521,
+  "classes": 5,
+  "class_distribution": {
+    "Sugarcane#Mosaic": {
+      "train": 323,
+      "val": 69,
+      "test": 70,
+      "total": 462
+    },
+    "Sugarcane#RedRot": {
+      "train": 362,
+      "val": 78,
+      "test": 78,
+      "total": 518
+    },
+    "Sugarcane#BrownRust": {
+      "train": 359,
+      "val": 77,
+      "test": 78,
+      "total": 514
+    },
+    "Sugarcane#Healthy": {
+      "train": 365,
+      "val": 78,
+      "test": 79,
+      "total": 522
+    },
+    "Sugarcane#Yellow": {
+      "train": 353,
+      "val": 76,
+      "test": 76,
+      "total": 505
+    }
+  }
+}

@@ -1,0 +1,6 @@
+artifact_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508
+creation_time: 1749362669221
+experiment_id: '636206537075738508'
+last_update_time: 1749362669221
+lifecycle_stage: active
+name: Sugarcane_Disease_Intel_XPU

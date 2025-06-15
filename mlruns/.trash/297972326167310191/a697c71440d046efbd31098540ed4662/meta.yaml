@@ -1,0 +1,16 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/297972326167310191/a697c71440d046efbd31098540ed4662/artifacts
+deleted_time: 1749378929867
+end_time: 1749352462251
+entry_point_name: ''
+experiment_id: '297972326167310191'
+lifecycle_stage: deleted
+run_id: a697c71440d046efbd31098540ed4662
+run_name: funny-dolphin-303
+run_uuid: a697c71440d046efbd31098540ed4662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749352461302
+status: 4
+tags: []
+user_id: gpartha

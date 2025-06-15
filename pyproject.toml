@@ -1,0 +1,14 @@
+[project]
+name = "plant-disease-identifier-pytorch"
+version = "0.1.0"
+description = "Pytoch implementation to identify plan disease"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc[gdrive]>=3.59.2",
+    "matplotlib>=3.10.3",
+    "mlflow>=2.22.0",
+    "pylance>=0.28.0",
+    "scikit-learn>=1.6.1",
+    "torchinfo>=1.8.0",
+]
