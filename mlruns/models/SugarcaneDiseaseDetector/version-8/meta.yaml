@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1750001640697
+current_stage: None
+description: null
+last_updated_timestamp: 1750001640697
+name: SugarcaneDiseaseDetector
+run_id: 49459db7487d4a0083cd14efc13b7363
+run_link: null
+source: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/49459db7487d4a0083cd14efc13b7363/artifacts/SugarcaneDiseaseDetector
+status: READY
+status_message: null
+storage_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/49459db7487d4a0083cd14efc13b7363/artifacts/SugarcaneDiseaseDetector
+user_id: null
+version: 8

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1750512975286
+current_stage: None
+description: null
+last_updated_timestamp: 1750512975286
+name: RiceDiseaseDetector
+run_id: 6c0d8db770b34ee1bc81ff331135eaf9
+run_link: null
+source: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/114606103871562608/6c0d8db770b34ee1bc81ff331135eaf9/artifacts/RiceDiseaseDetector
+status: READY
+status_message: null
+storage_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/114606103871562608/6c0d8db770b34ee1bc81ff331135eaf9/artifacts/RiceDiseaseDetector
+user_id: null
+version: 9

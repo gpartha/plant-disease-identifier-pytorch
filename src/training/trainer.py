@@ -13,6 +13,7 @@ from torch.utils.data import DataLoader
 import logging
 from pathlib import Path
 import json
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -161,11 +162,22 @@ class IntelXPUTrainer:
             f.write(str(model_summary))
         mlflow.log_artifact("model_summary.txt")
         
+        # Start training timer
+        total_start = time.time()
+
         for epoch in range(self.config.NUM_EPOCHS):
             logger.info(f'Epoch {epoch+1}/{self.config.NUM_EPOCHS}')
-            
+
+            # start time for the epoch
+            epoch_start = time.time()
+
             train_loss, train_acc = self.train_epoch()
             val_loss, val_acc = self.validate_epoch()
+
+            # Time taken for the epoch
+            epoch_time = time.time() - epoch_start
+            logger.info(f"Epoch {epoch+1} time: {epoch_time:.2f} seconds")
+            mlflow.log_metric("epoch_time_sec", epoch_time, step=epoch)
             
             self.scheduler.step(val_loss)
             
@@ -215,6 +227,11 @@ class IntelXPUTrainer:
             if self.patience_counter >= self.config.PATIENCE:
                 logger.info(f'Early stopping at epoch {epoch+1}')
                 break
+        
+        # Total training time
+        total_time = time.time() - total_start
+        logger.info(f"Total training time: {total_time:.2f} seconds")
+        mlflow.log_metric("total_training_time_sec", total_time)
         
         # Log final metrics and training curves
         mlflow.log_metric("best_val_accuracy", self.best_val_acc)

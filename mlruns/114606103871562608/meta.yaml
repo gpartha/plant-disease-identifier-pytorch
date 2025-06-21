@@ -1,0 +1,6 @@
+artifact_location: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/114606103871562608
+creation_time: 1750511596194
+experiment_id: '114606103871562608'
+last_update_time: 1750511596194
+lifecycle_stage: active
+name: Rice_Disease_Intel_XPU

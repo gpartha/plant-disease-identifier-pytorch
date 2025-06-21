@@ -50,7 +50,25 @@ class PlantDiseaseAugmentation:
                 transforms.RandomErasing(p=0.4, scale=(0.02, 0.25))
             ])
         else:
-            return self.get_standard_transforms()
+            # Default augmentation for no aggressive strategy
+            return transforms.Compose([
+                transforms.Resize((256, 256)),
+                transforms.RandomResizedCrop(self.config.IMAGE_SIZE[0], scale=(0.6, 1.0)),
+                
+                # Geometric transformations - preserve disease features
+                transforms.RandomHorizontalFlip(p=0.5),
+                transforms.RandomVerticalFlip(p=0.3),
+                transforms.RandomRotation(degrees=45),
+                transforms.RandomAffine(
+                    degrees=25, translate=(0.15, 0.15), 
+                    scale=(0.8, 1.3), shear=15
+                ),
+                transforms.ToTensor(),
+                transforms.Normalize(
+                    mean=[0.485, 0.456, 0.406], 
+                    std=[0.229, 0.224, 0.225]
+                )
+            ])
     
     def get_val_transforms(self):
         """Standard validation transforms."""

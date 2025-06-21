@@ -1,0 +1,21 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.11.6
+- pip
+- pip:
+  - mlflow==2.22.0
+  - cloudpickle==3.1.1
+  - colorama==0.4.6
+  - intel-extension-for-pytorch==2.7.10
+  - jaraco-collections==5.1.0
+  - jinja2==3.1.6
+  - numpy==2.2.6
+  - pandas==2.2.3
+  - platformdirs==4.3.8
+  - pydot==4.0.0
+  - torch==2.7.1
+  - torchinfo==1.8.0
+  - torchvision==0.22.1
+  - tqdm==4.67.1
+name: mlflow-env

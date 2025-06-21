@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/636206537075738508/4cbc501c7fda46ee90657898cbffe508/artifacts
+end_time: 1750001108245
+entry_point_name: ''
+experiment_id: '636206537075738508'
+lifecycle_stage: active
+run_id: 4cbc501c7fda46ee90657898cbffe508
+run_name: Sugarcane_Training_Run
+run_uuid: 4cbc501c7fda46ee90657898cbffe508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750001104300
+status: 3
+tags: []
+user_id: gpartha

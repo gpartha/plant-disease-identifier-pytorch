@@ -1,0 +1,24 @@
+{
+  "total_images": 3898,
+  "classes": 3,
+  "class_distribution": {
+    "Rice#Leafsmut": {
+      "train": 655,
+      "val": 140,
+      "test": 141,
+      "total": 936
+    },
+    "Rice#Brownspot": {
+      "train": 1133,
+      "val": 243,
+      "test": 244,
+      "total": 1620
+    },
+    "Rice#Bacterialblight": {
+      "train": 939,
+      "val": 201,
+      "test": 202,
+      "total": 1342
+    }
+  }
+}
