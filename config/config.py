@@ -5,8 +5,8 @@ import torch
 
 class Config:
     # Intel XPU specific settings
-    #DEVICE = "xpu:0" if torch.xpu.is_available() else "cpu"
-    DEVICE = "cpu" # Running on CPU to see if it works
+    DEVICE = "xpu:0" if torch.xpu.is_available() else "cpu"
+    #DEVICE = "cpu" # Running on CPU to see if it works
     USE_MIXED_PRECISION = True
     
     # Model configuration - based on search results showing MobileNetV3 effectiveness[4][5]

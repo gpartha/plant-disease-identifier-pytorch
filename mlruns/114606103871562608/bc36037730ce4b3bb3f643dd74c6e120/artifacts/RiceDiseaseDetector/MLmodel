@@ -1,0 +1,22 @@
+artifact_path: RiceDiseaseDetector
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.6
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.7.1+xpu
+mlflow_version: 2.22.0
+model_size_bytes: 14638079
+model_uuid: 836ea1d47c4547a09bcb335f1741bbdb
+prompts: null
+run_id: bc36037730ce4b3bb3f643dd74c6e120
+utc_time_created: '2025-06-22 18:13:27.660410'

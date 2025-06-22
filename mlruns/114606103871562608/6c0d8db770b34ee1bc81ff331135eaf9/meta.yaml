@@ -4,7 +4,7 @@ entry_point_name: ''
 experiment_id: '114606103871562608'
 lifecycle_stage: active
 run_id: 6c0d8db770b34ee1bc81ff331135eaf9
-run_name: Rice_Training_Run
+run_name: Rice_Training_Run_GPU
 run_uuid: 6c0d8db770b34ee1bc81ff331135eaf9
 source_name: ''
 source_type: 4

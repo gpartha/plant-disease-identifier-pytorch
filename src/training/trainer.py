@@ -24,7 +24,7 @@ class IntelXPUTrainer:
         self.val_loader = val_loader
         self.config = config
         
-        # Verify and move to Intel XPU[1]
+        # Verify and move to Intel XPU / CPU
         config.verify_xpu()
         self.device = config.DEVICE
         self.model = self.model.to(self.device)
@@ -37,7 +37,7 @@ class IntelXPUTrainer:
             weight_decay=config.WEIGHT_DECAY
         )
         
-        # Intel XPU optimization - critical for performance[1][7]
+        # Intel XPU optimization - critical for performance
         self.model, self.optimizer = ipex.optimize(
             self.model, 
             optimizer=self.optimizer, 
@@ -165,6 +165,7 @@ class IntelXPUTrainer:
         # Start training timer
         total_start = time.time()
 
+        # Run training loop
         for epoch in range(self.config.NUM_EPOCHS):
             logger.info(f'Epoch {epoch+1}/{self.config.NUM_EPOCHS}')
 

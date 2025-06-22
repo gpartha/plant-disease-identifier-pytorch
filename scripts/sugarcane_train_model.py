@@ -43,7 +43,10 @@ def main():
     logger.info(f"MLflow experiment name set to: {config.MLFLOW_EXPERIMENT_NAME}")
 
     mlflow.set_experiment(config.MLFLOW_EXPERIMENT_NAME)
-    mlflow.start_run(run_name=f"{config.PLANT_NAME}_Training_Run")
+    if config.DEVICE == "cpu":
+        mlflow.start_run(run_name=f"{config.PLANT_NAME}_Training_Run_CPU")
+    else:
+        mlflow.start_run(run_name=f"{config.PLANT_NAME}_Training_Run_GPU")
 
     preparator = DataPreparator(config)
     split_stats = preparator.split_dataset_stratified(source_dir, output_dir)

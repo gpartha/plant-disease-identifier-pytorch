@@ -1,0 +1,15 @@
+artifact_uri: file:///home/gpartha/mydev/aimlops/plant-disease-identifier-pytorch/mlruns/114606103871562608/4332b1e3857a4bd0b430d00bb50b8281/artifacts
+end_time: 1750615158784
+entry_point_name: ''
+experiment_id: '114606103871562608'
+lifecycle_stage: active
+run_id: 4332b1e3857a4bd0b430d00bb50b8281
+run_name: Rice_Training_Run_CPU
+run_uuid: 4332b1e3857a4bd0b430d00bb50b8281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750613302764
+status: 3
+tags: []
+user_id: gpartha

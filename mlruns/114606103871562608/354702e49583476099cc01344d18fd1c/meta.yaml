@@ -4,7 +4,7 @@ entry_point_name: ''
 experiment_id: '114606103871562608'
 lifecycle_stage: active
 run_id: 354702e49583476099cc01344d18fd1c
-run_name: Rice_Training_Run
+run_name: Rice_Training_Run_CPU
 run_uuid: 354702e49583476099cc01344d18fd1c
 source_name: ''
 source_type: 4
