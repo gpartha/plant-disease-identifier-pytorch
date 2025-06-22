@@ -13,6 +13,12 @@ Help identify plant diseases - Focus on sugarcane and rice in indian context usi
 ├── .venv/                          # Python virtual environment (not tracked by git)
 ├── config/                         # Configuration files for the project
 │   └── config.py                   # Main configuration file for the project
+├── cpu-gpu-analysis/               # Contains various screenshots
+│   ├── CPU_epoch_per_step.png      # CPU epoch time per step analysis
+│   ├── GPU_epoch_per_step.png      # XPU epoch time per step analysis
+│   ├── CPU_Running_Screenshot.png  # CPU training screenshot
+│   ├── GPU_Running_Screenshot.png  # XPU training screenshot
+│   └── CPU & GPU memory usage screenshots
 ├── data/                           # All datasets (raw and processed)
 │   ├── raw/                        # Raw images (unprocessed)
 │   │   ├── sugarcane_images/       # Raw sugarcane images
@@ -121,3 +127,47 @@ mlflow ui --port 5000
   - `epoch_time_sec` - Time taken for each epoch
   - `total_time_sec` - Total time taken for training
   - `accuracy` - Accuracy of the model on the validation set
+
+### Performance Comparison
+Shown below is the summary of the performance comparison between CPU and XPU training for the plant disease identification models using rice dataset.
+
+|        Metric            |   CPU Training  |  XPU Training   |
+|--------------------------|-----------------|-----------------|
+| Epoch Time per step (sec)| 54.68           | 18.53           |
+| Max Epoch Time (sec)     | 55.69 (step=33) | 27.70 (step=0)  |
+| Min Epoch Time (sec)     | 38.95 (step=0)  | 17.65 (step=1)  |
+| Total Time (sec)         | 1841.39         | 453.72          |
+| Epochs                   | 35              | 22              |
+| Accuracy (%)             | 100             | 99.32           |
+
+Shown below are the time taken for each epoch step for CPU and XPU training.
+#### CPU Epoch Time per Step
+![CPU_epoch_per_step.png](cpu-gpu-analysis/CPU_epoch_per_step.png)
+#### XPU Epoch Time per Step
+![GPU_epoch_per_step.png](cpu-gpu-analysis/GPU_epoch_per_step.png)
+
+#### Processing and Memory Usage
+Primary memory usage for CPU and XPU training was similar with CPU using more processing power as expected. Shows
+- CPU utilisation
+- Primary memory usage
+
+|        Metric            |   CPU Training  |  XPU Training   |
+|--------------------------|-----------------|-----------------|
+| CPU Utilisation (%)      | 77              | 9               |
+| Primary Memory Usage (GB)| 15.2            | 14.6            |
+
+##### CPU Training
+When the model was trained on CPU, the processing power was utilized more heavily, leading to longer training times.
+![During_CPU_Based_Training.png](cpu-gpu-analysis/During_CPU_Based_Training.png)
+
+Shows how the CPU utilisation drops after the training is completed.
+![After_CPU_Based_Training_Ended.png](cpu-gpu-analysis/After_CPU_Based_Training_Ended.png)
+
+##### XPU Training
+When the model was trained on XPU, the processing power was utilized more efficiently, leading to significantly reduced training times.
+
+Shows how the utilisation spikes when the training starts and drops after the training is stablished.
+![Starting_GPU_Based_Training.png](cpu-gpu-analysis/Starting_GPU_Based_Training.png)
+
+Steady state of the GPU utilisation after the training is established.
+![Stabilised_GPU_Based_Training.png](cpu-gpu-analysis/Stabilised_GPU_Based_Training.png)
